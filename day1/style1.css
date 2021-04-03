@@ -1,0 +1,26 @@
+body{
+    background-color:cornflowerblue;
+}
+.rectangle_1{
+    width:500px;
+    height:300px;
+    background-color:Orangered;
+    margin-top:200px;
+    margin-right:400px;
+    margin-bottom:200px;
+    margin-left:400px;
+    border-radius:40px;
+}
+.rectangle{
+    width:510px;
+    height:80px;
+    margin-top:50px;
+    margin-right:440px;
+    margin-bottom:50px;
+    margin-left:50px;
+    float:right;
+    background-color:white;
+}
+.rectangle_1:hover{
+    opacity:0.6;
+}
