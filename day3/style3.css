@@ -42,7 +42,9 @@ body{
 .content_2{
     font-family:cursive;
     color:white;
-    margin-left:310px;
+    float:left;
+    margin-left:865px;
+    margin-top:-60px;
 }
 
 
