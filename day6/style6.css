@@ -1,0 +1,25 @@
+body{
+    background-image:URL("headphone2.jpg");
+}
+.content_1{
+    margin-top:50px;
+    margin-left:120px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:24px;
+    color:navy;
+}
+.content_2{
+       margin-left:100px;
+}
+.list{
+    font-weight: Bold;
+    margin-left:80px;
+}
+.content_3{
+    margin-top:-440px;
+    margin-left:800px;
+}
+.list_2{
+    margin-left:800px;
+    font-weight:Bold;
+}
