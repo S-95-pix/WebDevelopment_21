@@ -1,0 +1,115 @@
+body{
+    background-color:rgb(6, 39, 73);
+}
+.main_content{
+    color:#FFFFFF;
+    font-family:'Courier New', Courier, monospace;
+    margin-top:30px;
+}
+.main_1{
+    width:350px;
+    height:500px;
+    background-color:#FFFFFF;
+    margin-top:25px;
+    margin-left:50px;
+    border-radius: 2%;
+}
+.main_2{
+    width:350px;
+    height:500px;
+    background-color:#FFFFFF;
+    margin-top:-500px;
+    margin-left:500px;
+    border-radius:2%;
+}
+.main_3{
+    width:350px;
+    height:500px;
+    background-color:#FFFFFF;
+    margin-top:-500px;
+    margin-left:950px;
+    border-radius:2%;
+}
+#content_1{
+    margin-top:-496px;
+    margin-left:140px;
+    color:teal;
+}
+#content_2{
+    margin-top:-40px;
+    margin-left:630px;
+    color:teal;
+}
+#content_3{
+    margin-top:-40px;
+    margin-left:1066px;
+    color:teal;
+}
+.Image_1{
+    margin-left:75px;
+}
+.Image_2{
+    margin-top:-200px;
+    margin-left:524px;
+}
+.Image_3{
+    margin-top:-200px;
+    margin-left:975px;
+}
+#spacing_1{
+    font-size:18px;
+    margin-left:102px;
+    word-spacing: 10px;
+}
+#spacing_2{
+    font-size:18px;
+    margin-top:-35px;
+    margin-left:556px;
+    word-spacing: 10px;
+}
+#spacing_3{
+    font-size:18px;
+    margin-top:-32px;
+    margin-left:1006px;
+    word-spacing:10px;
+}
+#list_1{
+    margin-left:90px;
+    font-weight:Bold;
+    font-size:18px;
+}
+#list_2{
+    margin-top:-98px;
+    margin-left:540px;
+    font-weight:Bold;
+    font-size:18px;
+}
+#list_3{
+    margin-top:-98px;
+    margin-left:995px;
+    font-weight:Bold;
+    font-size:18px;
+}
+#button_1{
+    margin-left:160px;
+    float:left;
+    border-style: solid;
+    border-radius:10%;
+    border-color:dodgerblue;
+}
+#button_2{
+    margin-left:325px;
+    float:left;
+    border-style:solid;
+    border-radius:10%;
+    border-color:dodgerblue;
+}
+#button_3{
+    margin-top:-50px;
+    margin-left:1068px;
+    float:left;
+    border-style:solid;
+    border-radius:10%;
+    border-color:dodgerblue;
+}
+
