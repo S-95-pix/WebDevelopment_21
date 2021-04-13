@@ -1,0 +1,127 @@
+body{
+    background-color:Black;
+}
+.header_1{
+    text-align:center;
+    font-family:'Times New Roman', Times, serif;
+    font-size:17px;
+    color:#FFFFFF;
+}
+.header_2{
+     text-align:center;
+     font-family:Arial, Helvetica, sans-serif;
+     font-size:11px;
+     color:#FFFFFF;
+}
+.main_1{
+        width:325px;
+        height:460px;
+        margin-top:74px;
+        margin-left:100px;
+        background-color:#FFFFFF;
+        border-radius:15%;
+}
+.main_2{
+        width:325px;
+        height:460px;
+        margin-top:-460px;
+        margin-left:522px;
+        background-color:#FFFFFF;
+        border-radius:15%;
+}
+.main_3{
+        width:325px;
+        height:460px;
+        margin-top:-460px;
+        margin-left:950px;
+        background-color:#FFFFFF;
+        border-radius:15%;
+}
+#model_1{
+        text-align:center;
+        width:317px;
+        height:56px;
+        background-color:lightslategray;
+        color:#FFFFFF;
+        margin-top:-516px;
+        margin-left:100px;
+        padding:4px;
+}
+#model_2{
+        text-align:center;
+        width:317px;
+        height:56px;
+        background-color: #FF0000;
+        margin-top:-64px;
+        margin-left:522px;
+        color:white;
+        padding:4px;
+}
+#model_3{
+        text-align:center;
+        width:317px;
+        height:56px;
+        background-color: lightslategray;
+        margin-top:-65px;
+        margin-left:950px;
+        color:#FFFFFF;
+        padding:4px;
+}
+.Image_1{
+        flex:left;
+        margin-top:-0px;
+        margin-left:100px;
+}
+.Image_2{
+        flex:left;
+        margin-top:-290px;
+        margin-left:93px;
+}
+.Image_3{
+        flex:left;
+        
+        margin-left:99px;
+}
+.content_1{
+        margin-left:190px;
+}
+.content_2{
+        margin-top:-39px;
+        margin-left:620px;
+}
+.content_3{
+        margin-top:-39px;
+        margin-left:1040px;
+}
+.list_1{
+        margin-left:160px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size:19px;
+}
+.list_2{
+        margin-top:-108px;
+        margin-left:590px;
+        font-family:Cambria;
+        font-size:19px;
+}
+.list_3{
+        margin-top:-108px;
+        margin-left:1010px;
+        font-family:Cambria;
+        font-size:19px;
+}
+#button_1{
+        margin-top:30px;
+        margin-left:200px;
+}
+#button_2{
+        margin-top:-40px;
+        margin-left:630px;
+}
+#button_3{
+        margin-top:-40px;
+        margin-left:1050px;
+}
+
+    
+    
