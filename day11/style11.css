@@ -1,0 +1,24 @@
+body{
+    background-color:rgb(43, 156, 43);
+}
+#content{
+    color:white;
+    font-family:cursive, Arial, Helvetica, sans-serif;
+    font-size:30px;
+    border-style:solid double dotted;
+    border-radius:10px;
+    border-width:9px;
+    margin: 80px 492px 25px 492px;
+}
+#content_1{
+    font-family: cursive;
+    font-size:22px;
+    margin-top:-88px;
+    margin-left:768px;
+    color:#FFFFFF;
+    letter-spacing:12px;
+}
+
+
+
+
