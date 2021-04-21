@@ -1,0 +1,137 @@
+body{
+    background-color:rgba(128, 128, 128, 0.658);
+}
+#header_1{
+    text-align:center;
+    color:orangered;
+    font-family:cursive;
+}
+#header_2{
+    text-align:center;
+    font-size:14px;
+}
+.box_1{
+    width:325px;
+    height:460px;
+    background-color:#FFFFFF;
+    margin-top:30px;
+    margin-left:100px;
+    border-radius:10%;
+    box-shadow:5px 5px 15px;
+}
+.box_2{
+    width:325px;
+    height:460px;
+    background-color:#FFFFFF;
+    margin-top:-460px;
+    margin-left:522px;
+    border-radius:10%;
+    box-shadow:5px 5px 15px;
+}
+.box_3{
+    width:325px;
+    height:460px;
+    background-color:#FFFFFF;
+    margin-top:-460px;
+    margin-left:940px;
+    border-radius:10%;
+    box-shadow:5px 5px 15px;
+}
+.menu_1{
+    text-align: center;
+    width:318px;
+    height:56px;
+    background-color:red;
+    color:#FFFFFF;
+    margin-top:-460px;
+    margin-left:99px;
+    padding: 4px;
+    font-size:15px;
+}
+.menu_2{
+    text-align:center;
+    width:318px;
+    height:56px;
+    background-color:grey;
+    color:#FFFFFF;
+    margin-top:-64px;
+    margin-left:522px;
+    padding:4px;
+    font-size:15px;
+}
+.menu_3{
+    text-align:center;
+    width:318px;
+    height:56px;
+    background-color:lightslategrey;
+    color:#FFFFFF;
+    font-size:15px;
+    margin-top:-64px;
+    margin-left:940px;
+    padding:4px;
+}
+.Image_1{
+    float:left;
+    margin-left:100px;
+}
+.Image_2{
+    float:left;
+    margin-left:97px;
+}
+.Image_3{
+    float:left;
+    margin-top:-200px;
+    margin-left:940px;
+}
+.content_1{
+    float:left;
+    margin-left:130px;
+    font-size:20px;
+}
+.content_2{
+    float:left;
+    margin-left:170px;
+    font-size:20px;
+}
+.content_3{
+    float:left;
+    margin-top:2px;
+    margin-left:150px;
+    font-size:20px;
+}
+#rate_1{
+    float:right;
+    margin-top:-20px;
+    margin-right:1060px;
+    color:orangered;
+    font-size:22px;
+}
+#rate_2{
+    float:left;
+    margin-top:-25px;
+    margin-left:650px;
+    color:orangered;
+    font-size:22px;
+}
+#rate_3{
+    float:left;
+    margin-top:-25px;
+    margin-left:1080px;
+    color:orangered;
+    font-size:22px;
+}
+.button_1{
+    float:right;
+    margin-top:20px;
+    margin-right:1020px;
+}
+.button_2{
+    float:left;
+    margin-top:-40px;
+    margin-left:620px;
+}
+.button_3{
+    float:left;
+    margin-top:-40px;
+    margin-left:1050px;
+} 
