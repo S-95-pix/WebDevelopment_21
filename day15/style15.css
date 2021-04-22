@@ -1,0 +1,33 @@
+body{
+    background-color:#FFFFFF;
+}
+#box{
+    width:1350px;
+    height:480px;
+    background-color:rgb(194, 26, 26);
+}
+.Image{
+    float:left;
+    margin-top:-390px;
+    margin-left:200px;
+    border-radius:5%;
+    box-shadow: -5px -5px 5px;
+}
+.header{
+    margin-top:-350px;
+    margin-left:650px;
+    color:#FFFFFF;
+    font-size:45px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.content{
+    color:#FFFFFF;
+    font-size:15px;
+    margin-left:652px;
+    font-family:monospace;
+}
+.button{
+    float:left;
+    margin-top:-120px;
+    margin-left:50px;
+}
