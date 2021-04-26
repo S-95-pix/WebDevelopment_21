@@ -1,0 +1,133 @@
+body{
+    background-color:#FFFFFF;
+}
+#main{
+    width:1320px;
+    height:500px;
+    background-color:rgb(34, 85, 136);
+}
+#header{
+    color:#FFFFFF;
+    margin-top:-510px;
+    margin-left:20px;
+    font-size:18px;
+}
+.header_1{
+    color:#000000;
+    margin-left:12px;
+}
+#box_1{
+    width:300px;
+    height:440px;
+    background-color:#FFFFFF;
+    float:left;
+    margin-top:40px;
+    margin-left:50px;
+    border-radius:10%;
+    box-shadow: -5px -5px 5px;
+}
+#box_2{
+    width:280px;
+    height:350px;
+    background-color:#FFFFFF;
+    float:left;
+    margin-top:-30px;
+    margin-left:50px;
+    border-radius:10%;
+    box-shadow: -5px -5px 5px;
+
+}
+#box_3{
+    width:280px;
+    height:400px;
+    background-color:#FFFFFF;
+    float:left;
+    margin-top:80px;
+    margin-left:40px;
+    border-radius:10%;
+    box-shadow: -5px -5px 5px;
+}
+#box_4{
+    width:260px;
+    height:320px;
+    background-color:rgb(255,255,255);
+    float:left;
+    margin-top:160px;
+    margin-left:40px;
+    border-radius:10%;
+    box-shadow: -5px -5px 5px;
+
+}
+.Image_1{
+    border-radius:50%;
+    float:left;
+    margin-top:-420px;
+    margin-left:95px;
+}
+.Image_2{
+    border-radius:50%;
+    float:left;
+    margin-top:-490px;
+    margin-left:450px;
+}
+.Image_3{
+    border-radius:50%;
+    float:left;
+    margin-top:-380px;
+    margin-left:765px;
+}
+.Image_4{
+    border-radius:50%;
+    float:left;
+    margin-top:-300px;
+    margin-left:1098px;
+}
+#content_1{
+    float:left;
+    margin-top:-190px;
+    margin-left:70px;
+}
+#content_2{
+    float:left;
+    margin-top:-290px;
+    margin-left:440px;
+}
+#content_3{
+    float:left;
+    margin-top:-170px;
+    margin-left:750px;
+}
+#content_4{
+    font-size:14px;
+    float:left;
+    margin-top:-138px;
+    margin-left:1055px;
+}
+#button_1{
+    float:left;
+    margin-top:-80px;
+    margin-left:140px;
+}
+#button_2{
+    float:left;
+    margin-top:-220px;
+    margin-left:475px;
+}
+#button_3{
+    float:left;
+    margin-top:-82px;
+    margin-left:795px;
+}
+#button_4{
+    float:left;
+    margin-top:-72px;
+    margin-left:1100px;
+}
+#list{
+    float:left;
+    margin-top:-600px;
+    margin-left:980px;
+    color:rgb(255,255,255);
+    font-size:25px;
+    font-family:cursive;
+}
