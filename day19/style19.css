@@ -1,0 +1,98 @@
+body{
+    background-color:rgb(9, 9, 73);
+}
+#egg-shape_1{
+    width:240px;
+    height:280px;
+    background-color:orangered;
+    border-radius:50% 50% 50% 50%/60% 60% 40% 40%;
+    border-style:dotted;
+    border-color:#FFFFFF;
+    position:relative;
+    top:150px;
+    left:60px;
+    z-index: 2;
+}
+#egg-shape_2{
+    width:240px;
+    height:280px;
+    background-color:rgb(238, 114, 69);
+    border-radius:50% 50% 50% 50%/60% 60% 40% 40%;
+    position:relative;
+    top:-180px;
+    left:70px;
+    z-index: 1;
+    border-style:dotted;
+    border-color:#000000;
+}
+#trianle-up_1{
+    width:0;
+    height:0;
+    border-left:200px solid transparent;
+    border-right:200px solid transparent;
+    border-bottom:200px solid rgb(10, 61, 10);
+    position:relative;
+    margin-top:-400px;
+    margin-left:460px;
+    z-index: 2;
+}
+#trianle-up_2{
+    width:0;
+    height:0;
+    border-left:200px solid transparent;
+    border-right:200px solid transparent;
+    border-bottom:200px solid rgb(20, 170, 20);
+    position:relative;
+    margin-top:-180px;
+    margin-left:420px;
+    z-index: 1;
+}
+#circle_1{
+    width:300px;
+    height:300px;
+    border-radius:50% 50% 40% 40%;
+    border-style:dotted;
+    border-color:#000000;
+    background-color:#FF0000;
+    position:relative;
+    margin-top:-250px;
+    margin-left:980px;
+    z-index: 2;
+}
+#circle_2{
+    width:300px;
+    height:300px;
+    border-radius:50% 50% 40% 40%;
+    background-color:rgb(179, 46, 46);
+    position:relative;
+    margin-top:-360px;
+    margin-left:960px;
+    z-index: 1;
+    border-style:dotted;
+    border-color:#FFFFFF;
+}
+#content_1{
+    color:#FFFFFF;
+    margin-top:-145px;
+    margin-left:90px;
+    font-size:18px;
+    position: relative;
+    z-index: 2;
+}
+#content_2{
+    color:#FFFFFF;
+    margin-top:-75px;
+    margin-left:480px;
+    font-size:18px;
+    position:relative;
+    z-index: 2;
+}
+#content_3{
+    color:#FFFFFF;
+    margin-top:-75px;
+    margin-left:995px;
+    font-size:18px;
+    position:relative;
+    z-index: 2;
+}
+
