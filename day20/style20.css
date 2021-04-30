@@ -1,0 +1,28 @@
+body{
+    background-image:url("space.jpg");
+}
+#box_1{
+    width:684px;
+    height:350px;
+    background-image:linear-gradient(rgba(255,0,0,0),rgba(255,0,0,1));   
+    margin-top:120px;
+    margin-left:340px;
+    border:solid #FFFFFF 4px;
+    border-radius:5%;
+}
+#content_1{
+    position:absolute;
+    top:230px;
+    left:390px;
+    color:#FFFFFF;
+    font-size:19px;
+    font-family:cursive;
+}
+#content_2{
+    position:absolute;
+    top:380px;
+    left:860px;
+    font-size:25px;
+    font-family:cursive;
+    color:#FFFFFF;
+}
