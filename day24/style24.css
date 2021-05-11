@@ -1,0 +1,93 @@
+body{
+    background-image: URL("Image11.jpg");
+}
+.avatar{
+    width:90px;
+    height:90px;
+    border-radius:50%;
+    position:absolute;
+    top:-40px;
+    left:140px;
+}
+.loginbox{
+    width:290px;
+    height:390px;
+    background-image:linear-gradient(rgb(151, 9, 9),rgba(255,255,255,0),rgba(9, 9, 148,0.6),#004e92);
+    color:#FFFFFF;
+    position:absolute;
+    top:60px;
+    left:490px;
+    padding:80px 40px;
+    border-radius:30px;
+}
+.loginbox p{
+    margin-top:-10px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-top:-25px;
+    padding:0 0 20px;
+    color:rgba(38, 0, 255, 0.8);
+    text-align:center;
+}
+.loginbox input{
+    outline:none;
+    width:100%;
+    height:20px;
+    margin-bottom:20px;
+}
+.loginbox input[type="text"],.loginbox input[type="password"]{
+    border:solid #FFFFFF;
+    outline:none;
+    height:20px;
+    border-radius:20px;
+}
+.loginbox input[type="submit"]{
+    height:30px;
+    font-size:18px;
+    background-color:orangered;
+    border-radius:20px;
+}
+.loginbox a{
+    color:grey;
+    font-size:18px;
+}
+.loginbox h2{
+    font-size:17px;
+    margin-left:90px;
+}
+.image_1{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-top:5px;
+}
+.image_2{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-top:5px;
+    margin-left:60px;
+}
+.image_3{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    margin-top:5px;
+    margin-left:70px;
+}
+.loginbox input[type="Button"]{
+    height:40px;
+    width:160px;
+    margin-top:15px;
+    margin-left:70px;
+    border-radius:20px;
+    background-color:#e52727;
+    font-size:15px;
+}
+.loginbox input[type="Button"]:hover{
+    background-color:#ee0b0b;
+}
+.loginbox input[type="submit"]:hover{
+    background-color:rgb(247, 0, 255);
+}
