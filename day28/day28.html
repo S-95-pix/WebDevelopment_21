@@ -1,1 +1,32 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> WELCOME </title>
+        <link rel="stylesheet" href="style28.css">
+    </head>
+    <body>
+        <form name="form1" class="calci">
+        <input type="text" name="answer" id="display"><br>
+        <input type="button" class="btndesign" value="C" onclick="form1.answer.value=''">
+        <input type="button" class="btndesign" value="<" onclick="form1.answer.value=form1.answer.value.substring(0,form1.answer.value.length*1-1)">
+        <input type="button" class="btndesign" value="00" onclick="form1.answer.value+='00'">
+        <input type="button" class="optdesign" value="/" onclick="form1.answer.value+='/'"><br>
+        <input type="button" class="btndesign" value="7" onclick="form1.answer.value+='7'">
+        <input type="button" class="btndesign" value="8" onclick="form1.answer.value+='8'">
+        <input type="button" class="btndesign" value="9" onclick="form1.answer.value+='9'">
+        <input type="button" class="optdesign" value="*" onclick="form1.answer.value+='*'"><br>
+        <input type="button" class="btndesign" value="4" onclick="form1.answer.value+='4'">
+        <input type="button" class="btndesign" value="5" onclick="form1.answer.value+='5'">
+        <input type="button" class="btndesign" value="6" onclick="form1.answer.value+='6'">
+        <input type="button" class="optdesign" value="-" onclick="form1.answer.value+='-'"><br>
+        <input type="button" class="btndesign" value="1" onclick="form1.answer.value+='1'">
+        <input type="button" class="btndesign" value="2" onclick="form1.answer.value+='2'">
+        <input type="button" class="btndesign" value="3" onclick="form1.answer.value+='3'">
+        <input type="button" class="optdesign" value="+" onclick="form1.answer.value+='+'"><br>
+        <input type="button" class="zero" value="0" onclick="form1.answer.value+='0'">
+        <input type="button" class="btndesign" value="." onclick="form1.answer.value+='.'">
+        <input type="button" class="optdesign" value="=" onclick="form1.answer.value=eval(form1.answer.value)">
+    </form>
+    </body>
+</html>
