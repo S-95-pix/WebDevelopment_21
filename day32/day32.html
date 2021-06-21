@@ -1,1 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> WELCOME </title>
+    <link rel="stylesheet" href="style32.css">
+    </head>
+    <body>
+        <div class="menu">
+          <img src="music.png" alt="" class="icon">
+            <nav>
+                <ul>
+                    <li><a href="#"> <b> HOME </b> </a></li>
+                    <li><a href="#"> <b> ABOUT </b></a></li>
+                    <li><a href="#"> <b> SPECIFICATIONS</b> </a></li>
+                    <li><a href="#"> <b> PRODUCTS</b> </a></li>
+                    <li><a href="#"> <b> CONTACT</b> </a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <div class="content_1">
+                <h1> THE <br> REAL <br> SOUND </h1>
+            </div>
+            <div class="content_2">
+                <p> Click Here To Listen Music </p>
+                <img src="playmusic.png" alt="" id="icon">
+            </div>
+        </div>
+       <audio src="C:\\Users\\HP\\Desktop\\Web Development\\Images\\ray-of-hope.mp3" id="song"></audio>
+       <script>
+           var song=document.getElementById("song");
+           var icon=document.getElementById("icon");
+           icon.onclick=function(){
+               if(song.paused){
+                   song.play();
+                   icon.src="pausemusic.png";
+               }else{
+                   song.pause();
+                    icon.src="playmusic.png";
+               }
+           }
+       </script>
 
+    </body>
+</html>
