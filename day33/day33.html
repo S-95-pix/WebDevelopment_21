@@ -1,1 +1,47 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> WELCOME </title>
+        <link rel="stylesheet" href="style33.css">
+    </head>
+    <body>
+        <div class="hero">
+            <video src="maldives-dreams.mp4" id="videolayout" alt="" autoplay muted loop plays-inline></video>
+        
+            <div class="logo">
+         <img src="icons-oasis.png" alt="">
+     </div>
+     <div class="sidebar">
+         <div class="text-box">
+             <h1> GOLDEN RESORT </h1>
+             <h4>LUXURY LIVING </h4>
+             <div class="line"></div>
+         </div>
+     </div>
+     <div class="content">
+         <h1> Maldives </h1>
+         <p> Very nice appartments in the heart of Maldives </p>
+     </div>
+     <div class="content_2">
+         <p> Click Here </p>
+         <img src="videoplay.png" alt="" id="icon">
+         
+     </div>
+     </div>
+     <script>
+         var videolayout=document.getElementById("videolayout");
+         var icon=document.getElementById("icon");
+         icon.onclick=function(){
+             videolayout.style.display="block";
+             if(videolayout.paused){
+                 videolayout.play();
+                 icon.src="videopause.png";
+             }else{
+                 videolayout.pause();
+                 icon.src="videoplay.png";
+             }
+         }
+     </script>
+    </body>
+</html>
