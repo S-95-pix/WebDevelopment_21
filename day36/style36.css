@@ -1,0 +1,23 @@
+body{
+    margin:0;
+    padding:0;
+    background-color:#d893b9;
+}
+.slider img{
+    width:680px;
+    height:380px;
+    position:absolute;
+    left:25%;
+    top:20%;
+    border:1px solid #FFFFFF;
+    border-radius:30px;
+}
+.controller img{
+    width:20px;
+    height:20px;
+    position:relative;
+    top:475px;
+    left:360px;
+    cursor:pointer;
+}
+
