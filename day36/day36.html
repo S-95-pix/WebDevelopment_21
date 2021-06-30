@@ -1,1 +1,45 @@
-
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> WELCOME </title>
+        <link rel="stylesheet" href="style36.css">
+    </head>
+    <body>
+        <div class="wraper">
+            <div class="slider">
+                <img src="design1.jpg" alt="" id="slides">
+            </div>
+                <div class="controller">
+                    <img src="prev-page.png" alt="" id="BackBtn">
+                    <img src="nxt-page.png" alt="" id="NextBtn">
+                </div>
+        </div>
+        <script>
+             var slides=document.getElementById("slides");
+             var BackBtn=document.getElementById("BackBtn");
+             var NextBtn=document.getElementById("NextBtn");
+             var slidesimages=new Array(
+                "design1.jpg",
+                "design2.jpg",
+                "design3.jpg",
+                "design4.jpg",
+                "design5.jpg",
+                "design6.jpg",
+            );
+             let i=0;
+             NextBtn.onclick=function(){
+                 if(i<5){
+                     slides.src=slidesimages[i+1];
+                     i++;
+                 }
+             }
+             BackBtn.onclick=function(){
+                 if(i>0){
+                     slides.src=slidesimages[i-1];
+                     i--;
+                 }
+             }
+        </script>
+    </body>
+</html>
