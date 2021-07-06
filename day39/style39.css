@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background-color: #DBDBDB;
+}
+.card{
+    position:relative;
+    width:340px;
+    height:480px;
+    border-radius: 20px;
+}
+.front,.back{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+}
+.front{
+    background-image: URL("maldivestour.jpg");
+    background-position:center;
+    background-size: cover;
+    border-radius:20px;
+    transform: rotateY(0deg);
+    transition: 0.5s;
+}
+.front h1{
+    color:#FFFFFF;
+    position:relative;
+    top:20%;
+    left:10%;
+    font-family:cursive;
+}
+.back{
+    background-color:rgb(10, 10, 85);
+    position:relative;
+    top:0;
+    left:0;
+    text-align:center;
+    color:#FFFFFF;
+    border-radius:20px;
+    transform:rotateY(-180deg);
+    transition: 0.5s;
+    opacity:0;
+    cursor: pointer;
+}
+.back h3{
+    position:relative;
+    top:15%;
+    font-size:25px;
+    font-family:cursive;
+}
+hr{
+    position:absolute;
+    width:80px;
+    top:25%;
+    left:38%;
+}
+.back p{
+    position:relative;
+    top:25%;
+    font-family: 'Akaya Kanadaka', cursive;
+    font-size:18px;
+}
+button{
+    width:140px;
+    height:40px;
+    border-radius:40px;
+    position:relative;
+    top:35%;
+    cursor:pointer;
+    font-weight:bold;
+}
+.card:hover .front{
+    transform:rotateY(180deg);
+}
+.card:hover .back{
+    transform:rotateY(0deg);
+    opacity:1;
+}
+
+
