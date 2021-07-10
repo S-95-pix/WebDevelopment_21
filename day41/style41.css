@@ -1,0 +1,70 @@
+body{
+    margin:0;
+    padding:0;
+}
+section{
+    min-height:100vh;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-color:lightgrey;
+}
+.container{
+    width:90%;
+    max-width:1000px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.left-col{
+    width:50%;
+    height:400px;
+    background-image:URL("maldives-beach.jpg");
+    background-size:cover;
+    background-position:center;
+    margin:-150px;
+    border-radius:20px;
+}
+.right-col{
+    width:40%;
+    min-height:340px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background-image:linear-gradient(#a8c0ff,#E9E4F0,rgba(24, 132, 233, 0.6),#8f94fb,rgba(0, 132, 255,0.1));
+    border-radius:20px;
+    transition:0.8s;
+}
+.right-col:hover{
+    transform: translateY(30px);
+    transition: 0.8s;
+}
+.content h1 {
+    text-align: center;
+    color:#636363;
+    font-family: 'Lobster', cursive;
+}
+.content p{
+    margin-left:20px;
+    color:#FFFFFF;
+    font-family: 'PT Sans', sans-serif;
+}
+button{
+    position:relative;
+    top:-8px;
+    left:20px;
+    width:140px;
+    height:40px;
+    border-radius:20px;
+    background-color:#bdc3c7;
+    cursor:pointer;
+    font-weight:bold;
+}
+.social-media{
+    position:relative;
+    top:-48px;
+    left:50%;
+    margin-left:50px;
+    cursor:pointer;
+}
