@@ -1,0 +1,208 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    line-height:1.5;
+}
+*{
+    margin:0;
+    padding:0;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.wiper_1{
+    background:URL("food_dev.jpg");
+    height:110vh;
+    opacity:0.99;
+    background-size: cover;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    right:80%;
+    top:5%;
+    font-family:cursive;
+    color:rgb(236, 27, 27);
+}
+.logo_head h1{
+    margin-left:15px;
+}
+.nav-bar ul{
+    position: absolute;
+}
+.nav-bar ul li{
+    text-align: center;
+    float:left;
+    width:135px;
+    height:60px;
+    line-height: 50px;
+    position:relative;
+    left:80%;
+    top:12px;
+    cursor: pointer;
+    color:#000000;
+    font-weight:bold;
+    background-image:linear-gradient(rgba(128,128,128,0.5),rgba(255,255,255,0.5),#D3CBB8);
+    border-radius:50%;
+}
+.nav-bar ul li ul li{
+    position:relative;
+    top:-10px;
+    left:8%;
+    display: none;
+    transition: 0.3s;
+}
+.nav-bar ul li:hover ul li{
+ display: block;
+}
+.nav-bar ul li ul li:hover{
+    color:navy;
+    padding-left:15px;
+}
+.nav-bar ul li:hover{
+    color:orangered;
+}
+.btn{
+    position:absolute;
+    left:45%;
+    top:64%;
+    font-weight:bold;
+    font-size:15px;
+    font-family:cursive;
+}
+.logo1{
+    width:30px;
+    height:30px;
+}
+.social{
+    position:absolute;
+    top:75%;
+    left:80%;
+}
+section h1{
+    position: relative;
+    top:40px;
+    color:#FFFFFF;
+}
+section p{
+    position: absolute;
+    top:130%;
+    font-family: cursive;
+    color:#FFFFFF;
+    font-size:18px;
+}
+.content_2 h2{
+    position:relative;
+    top:30px;
+    color:white;
+    font-family:Arial Narrow Bold', sans-serif;
+}
+button{
+    width:140px;
+    height:40px;
+    border-radius:40px;
+    position:absolute;
+    top:155%;
+    left:46%;
+    cursor: pointer;
+    font-weight:bold;
+    color:#000000;
+    background-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h1{
+    position: relative;
+    top:260px;
+    font-size:40px;
+    font-family:cursive;
+   
+}
+.content h4{
+    position: relative;
+    top:378px;
+    color:blue;
+    font-size:15px;
+    
+}
+hr{
+    width:160px;
+    height:0.1px;
+    position:absolute;
+    left:590px;
+    top:122%;
+}
+.wiper_2{
+    background:URL("Image11.jpg");
+    height:55vh;
+    opacity:0.9;
+}
+.wiper_3{
+    background:URL("black.jpg");
+    height:49vh;
+}
+.wiper_1,.wiper_2,.wiper_3{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.container{
+    max-width:1170px;
+    margin:auto;
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+ul{
+    list-style:none;
+    margin-top:18px;
+}
+footer{
+    padding:40px 0;
+}
+.footer-col{
+    width:29%;
+    padding:0 20px;
+    
+}
+.footer-col h4{
+    font-family: cursive;
+    font-size:18px;
+    color:#FFFFFF;
+    font-weight:bold;
+    position:relative;
+}
+.footer-col h4::before{
+    content:'';
+    position:absolute;
+    background-color:rgb(177, 15, 50);
+    width:40px;
+    height:2px;
+    bottom:-10px;
+}
+.footer-col ul li a{
+    color:#FFFFFF;
+    font-size:14px;
+    text-decoration: none;
+    font-family: 'Lobster', cursive;
+    transition: 0.3s;
+}
+.footer-col ul li a:hover{
+    color:grey;
+    padding-left:20px;
+}
+.arrow-up img{
+    position:absolute;
+    width:20px;
+    height:20px;
+    left:95%;
+    top:200%;
+    align-items: center;
+    border-radius: 80px;
+    text-decoration:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
