@@ -1,1 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> WELCOME </title>
+        <link rel="stylesheet" href="style44.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="Image"></div>
+        <div id="content">
+            <h1>Strawberry <br> Cocktail</h1>
+            <div id="line"></div>
+             <div id="sub_content">
+                 <h3>Tequila</h3>
+                 <h3>Soda</h3>
+                 <h3>Lime</h3>
+                 <h3>Strawberry Liqueur</h3>
+             </div>
+             <button>Learn More</button>
+             <button onclick="darkmode()" class="round_button_1"></button>
+             <button onclick="bluemode()" class="round_button_2"></button>
+             <button onclick="orangemode()" class="round_button_3"></button>
+             <div class="social">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+            </div>
+        </div>
+    <script>
 
+        function darkmode(){
+            document.body.style.backgroundColor="grey";
+            document.getElementById("sub_content").style.color="white";
+            document.getElementById("content").style.color="white";
+        }
+        function bluemode(){
+            document.body.style.backgroundColor="tomato";
+           
+        }
+        function orangemode(){
+            document.body.style.backgroundColor="forestgreen";
+        }
+    </script>
+    </body>
+</html>
