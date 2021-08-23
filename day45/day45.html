@@ -1,1 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> WELCOME </title>
+        <link rel="stylesheet" href="style45.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    </head>
+    <body>
+        <div class="overlay">
+            <div class="strip"></div>
+            <div class="strip"></div>
+            <div class="strip"></div>
+        </div>
+        <div class="Image"></div>
+        <header>
+            <nav class="navmenu">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Blog</a>
+                <a href="#">Contact</a>
+                <a href="#">Work</a>
+            </nav>
+                <div class="content">
+                    <p>There is a subtle magic in the falling of old leaves</p>
+                    <h1> Green Leaves<br> Matters</h1>
+                    <input type="text" class="text">
+                    <button class="button">
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+                <div id="contex">
+            <span class="slide">
+                <a href="#" onclick="OpenSlideMenu()" class="open">
+                <i class="fa fa-bars"></i>
+                </a>
+            </span>
+            <div id="menu" class="sidebar">
+                <a href="#" onclick="CloseSlideMenu()" class="close">
+                <i class="fa fa-times"></i>
+                </a>
+                <img src="bouquet3.jpg" class="img">
+                <ul>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Activities</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Locations</a></li>
+                <li><a href="#">Meetings</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="social">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-whatsapp"></i>
+    </div>
 
+
+</header>
+
+<script>
+   
+            function OpenSlideMenu(){
+                document.getElementById("menu").style.width= "1365px";
+                document.getElementById("contex").style.marginRight= "1340px";
+            }
+            function CloseSlideMenu(){
+                document.getElementById("menu").style.width= "0";
+                document.getElementById("contex").style.marginRight= "0";
+            }
+            
+         let open=document.querySelector('.open');
+         let close=document.querySelector('.close');
+        
+        gsap.to('.strip',{duration:1,height:0,stagger:.3})
+        gsap.from('.Image',{duration:.5,delay:.5})
+        gsap.from('.social',{duration:.8,height:0,y:'-25px',opacity:0,delay:3,stagger:.2})
+        gsap.from('.navmenu',{duration:.6,height:0,y:'-10px',opacity:0,delay:2,stagger:.2})
+        gsap.from('.text',{duration:.6,height:0,x:'-5px',opacity:0,delay:2,stagger:.2})
+        gsap.from('.button',{duration:.6,height:0,x:'-5px',opacity:0,delay:2,stagger:.2})
+    </script>
+</body>
+</html>
