@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> WELCOME</title>
+        <link rel="stylesheet" href="style46.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    </head>
+    <body>
+        <div class="overlay">
+            <div class="strip"></div>
+            <div class="strip"></div>
+            <div class="strip"></div>
+        </div>
+        <div class="left-col"></div>
+        <div class="right-col"></div>
+
+        <div class="nav">
+
+            <div class="logo1">
+                <h1> interior</h1>
+            </div>
+            <div class="menunav">
+                <ul>
+                    <li> Home </li>
+                    <li> Design </li>
+                    <li> About </li>
+                    <li> Contact </li>
+                </ul>
+            </div>
+        </div>
+        <div class="contex" id="con">
+                <span class="menu">
+                    <a href="#" onclick="OpenSlideMenu()" class="open">
+                <i class="fa fa-bars"></i>
+                </a>
+                </span>
+
+               <div id="navbar" class="slide">
+                   <a href="#" onclick="CloseSlideMenu()" class="Close">
+                   <i class="fa fa-times"></i>
+                   </a>
+                   <a href="#"> Explore </a>
+                   <a href="#"> Rooms </a>
+                   <a href="#"> Book </a>
+                   <a href="#"> Location </a>
+
+               </div>
+            </div>
+            <div class="content">
+            <h1> DREAM HOME </h1>
+            <p>They can absorbe pollutants and remove harmful gases from the air. No home 
+                should be without these wounderful greens! Desgining small rooms comes with a
+                completely different challenges</p>
+            </div>
+
+            <div class="social">
+
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-whatsapp"></i>
+
+            </div>
+            
+            <div class="content_middle">
+                <span>i</span>
+                <span>n</span>
+                <span>t</span>
+                <span>e</span>
+                <span>r</span>
+                <span>i</span>
+                <span>o</span>
+                <span>r</span>
+                <span style="margin-left:30px">d</span>
+                <span>e</span>
+                <span>s</span>
+                <span>i</span>
+                <span>g</span>
+                <span>n</span>
+            </div>
+        <script>
+
+function OpenSlideMenu(){
+                document.getElementById("navbar").style.width= "255px";
+                document.getElementById("con").style.marginRight= "255px";
+
+           }
+
+function CloseSlideMenu(){
+                document.getElementById("navbar").style.width= "0";
+                document.getElementById("con").style.marginRight= "0";
+}
+       gsap.to('.strip',{duration:1,height:0,stagger:.5})
+       gsap.from('.nav',{duration:3,height:0,y:'-15px',opacity:0,delay:.5})
+       gsap.from('.social',{duration:5,height:0,y:'-20px',opacity:0,delay:2})
+       gsap.from('span',{duration:.5,opacity:0,delay:.5,stagger:.5})
+       gsap.from('.content',{duration:3,x:'-30px',opacity:0,delay:.6})
+       </script>
+    </body>
+</html>
